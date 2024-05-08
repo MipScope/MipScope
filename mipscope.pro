@@ -145,10 +145,3 @@ RESOURCES += src/gui/images/images.qrc \
              src/gui/plugins/maze/images/mazeImages.qrc
 OBJECTS_DIR = obj
 MOC_DIR     = obj
-
-macx {
-	QMAKE_MAC_SDK                  = /Developer/SDKs/MacOSX10.6.sdk
-	QMAKE_MACOSX_DEPLOYMENT_TARGET = 10.5
-	QMAKE_CXX                      = g++-4.2
-	CONFIG                        += x86 x86_64
-}
