@@ -40,6 +40,7 @@
 #include "MazeUi.H"
 #include <QtGui>
 #include <sstream>
+#include <unistd.h>
 
 #ifdef Q_OS_WIN32
 // For Sleep()
