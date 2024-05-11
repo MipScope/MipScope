@@ -50,6 +50,7 @@
 #include "../simulator/Statement.H"
 #include <QtGui>
 #include <QProcess>
+#include <unistd.h>
 
 Gui::Gui(QStringList args) : QMainWindow(), 
    m_options(new Options(this)), 
